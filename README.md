@@ -1,2 +1,2 @@
 # alx-low_level_programming
-First c programming Projet repository
+First c programming
