@@ -21,6 +21,6 @@ int main(void)
 	putchar(upperLetter);
 	upperLetter++;
 	}
-	putchar(36);
+	putchar(10);
 	return (0);
 }
