@@ -1,7 +1,10 @@
-#include <stdio.h>
-#undef _putchar
-int _putchar (int c)
+#include <unistd.h>
+/**
+ * _putchar - characters to display
+ * @c: The character to print
+ * Return: always 0(sucesss)
+ */
+int _putchar (char c)
 {
-	register FILE *so = stdout;
-	return (putc(c, so));
+	return (write(1, &c, 1));
 }
