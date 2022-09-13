@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "putcharinclude.h"
 /**
  * main - entry code
