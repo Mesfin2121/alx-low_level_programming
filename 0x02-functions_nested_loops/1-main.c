@@ -1,5 +1,5 @@
-#include "main.h"
 #include "putcharinclude.h"
+#include "main.h"
 /**
  * main - entry code
  *
