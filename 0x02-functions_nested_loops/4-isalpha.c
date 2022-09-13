@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - checkthe alphabet
+ * @c: c is ascci char
  * Return: 1 if letter
  */
 int _isalpha(int c)
