@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 /**
- * main: entry point
- *
- * Return: always 0
+ * main - prints 1 to 100 and 3,5 and multiple of 15
+ * Return: void
  */
 int main(void)
 {
