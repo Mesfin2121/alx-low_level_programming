@@ -16,7 +16,7 @@ int main(void)
 			total += input;
 		}
 	}
-	printf("5%d\n", total);
+	printf("%d\n", total);
 
 	return (0);
 }
