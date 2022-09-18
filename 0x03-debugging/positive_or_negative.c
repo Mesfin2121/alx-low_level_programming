@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * postive_to_negative - entry point
+ * positive_or_negative - entry point
  * This code checks the postive number,negitve number and zero
  * @n: Inputs any number
  * Return: void
