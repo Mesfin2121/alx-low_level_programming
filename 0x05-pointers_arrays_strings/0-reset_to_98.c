@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rese_to_98 - pointer
+ * reset_to_98 - pointer
  * @n: parameter
  * Return: void
  */
