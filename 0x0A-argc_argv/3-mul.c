@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main: print product
+ * main - print product
  * @argc: number of args
  * @argv: array of args
  * Return: (0)
