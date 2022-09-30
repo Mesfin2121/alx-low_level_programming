@@ -1,5 +1,22 @@
 #include "main.h"
-
+/**
+ * checkPrime - check
+ * @i: int
+ * @num: number
+ * Return: int
+ */
+int checkPrime(int i, int num)
+{
+	if (num == i)
+		return (0);
+	else 
+	{
+		if ((num % i) == 0)
+			return (1);
+		else
+			return (checkPrime(i + 1, num));
+	}
+}
 /**
  * is_prime_number - check prime
  * @n: integer
@@ -7,22 +24,8 @@
  */
 int is_prime_number(int n)
 {
-	int i, flag = 0;
-
-	if (n == 0 || n == 1 || n < 0)
-		flag = 1;
-
-	for (i = 2; i <= n / 2; ++i)
-	{
-		if (n % i == 0)
-		{
-			flag = 1;
-			break;
-		}
-	}
-
-	if (flag == 0)
-		return (1);
-	else
+	if (checkPrime(2, n) == 0)
 		return (0);
+	else
+		return (1);
 }
