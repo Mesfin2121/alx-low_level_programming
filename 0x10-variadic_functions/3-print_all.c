@@ -1,3 +1,5 @@
+#include <stdarg.h>
+#include <stdio.h>
 #include "variadic_functions.h"
 void print_c(va_list c);
 void print_i(va_list i);
